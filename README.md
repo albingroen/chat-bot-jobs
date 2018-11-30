@@ -2,4 +2,4 @@
 
 ## Setup 
 
-    git@github.com:albingroen/openhack-project.git 
+   git clone  git@github.com:albingroen/openhack-project.git 
