@@ -290,13 +290,25 @@ class ConversationScreen extends React.Component {
           contentStyle={{ backgroundColor: "white" }}
           steps={this.state.hasBankID ? steps2 : steps1}
           handleEnd={({ renderedSteps, steps, values }) => {
-            const data = {
-              name: values[0],
-              city: values[1],
-              age: values[2],
-              employmentType: values[3],
-              profession: values[4]
-            };
+            let data;
+
+            if (this.state.hasBankID) {
+              data = {
+                name: "Albin",
+                city: "Stockholm",
+                age: 19,
+                employmentType: values[0],
+                profession: values[1]
+              };
+            } else {
+              data = {
+                name: values[0],
+                city: values[1],
+                age: values[2],
+                employmentType: values[3],
+                profession: values[4]
+              };
+            }
 
             const setData = async () => {
               await AsyncStorage.setItem("data", JSON.stringify(data))

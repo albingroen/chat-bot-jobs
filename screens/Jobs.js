@@ -33,11 +33,19 @@ class JobsScreen extends React.Component {
             personalData: JSON.parse(value)
           });
 
+          const parsedData = JSON.parse(value);
+          const { profession, employmentType } = parsedData;
+
+          let numberType;
+          if (employmentType === "Heltid") {
+            numberType = 1;
+          } else {
+            numberType = 2;
+          }
+
           axios
             .get(
-              `http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=19&nyckelord=${
-                JSON.parse(value).profession
-              }`,
+              `http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=19&nyckelord=${profession.toLocaleLowerCase()}&anstallningstyp=${numberType}`,
               {
                 headers: {
                   "Accept-Language": "application/json"
