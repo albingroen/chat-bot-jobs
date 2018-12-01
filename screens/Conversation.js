@@ -73,18 +73,20 @@ class ConversationScreen extends React.Component {
     super();
     this.state = {
       data: {},
-      hasBankID: "false"
+      hasBankID: "false",
+      loaded: false
     };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     const fetchData = async () => {
       try {
         const value = await AsyncStorage.getItem("bankid");
 
         if (value !== null) {
           this.setState({
-            hasBankID: value
+            hasBankID: value,
+            loaded: true
           });
         }
       } catch (error) {
@@ -274,55 +276,57 @@ class ConversationScreen extends React.Component {
         >
           <Text>Skip</Text>
         </TouchableOpacity>
-        <ChatBot
-          submitButtonStyle={{
-            backgroundColor: "dodgerblue",
-            color: "white",
-            borderRadius: 3,
-            borderRadius: 50
-          }}
-          inputStyle={{ flex: 1, borderRadius: 50 }}
-          userDelay={500}
-          userBubbleColor="dodgerblue"
-          userFontColor="white"
-          avatarStyle={{ borderRadius: 50 }}
-          botBubbleColor="#222"
-          contentStyle={{ backgroundColor: "white" }}
-          steps={this.state.hasBankID ? steps2 : steps1}
-          handleEnd={({ renderedSteps, steps, values }) => {
-            let data;
+        {this.state.loaded && (
+          <ChatBot
+            submitButtonStyle={{
+              backgroundColor: "dodgerblue",
+              color: "white",
+              borderRadius: 3,
+              borderRadius: 50
+            }}
+            inputStyle={{ flex: 1, borderRadius: 50 }}
+            userDelay={500}
+            userBubbleColor="dodgerblue"
+            userFontColor="white"
+            avatarStyle={{ borderRadius: 50 }}
+            botBubbleColor="#222"
+            contentStyle={{ backgroundColor: "white" }}
+            steps={this.state.hasBankID === "true" ? steps2 : steps1}
+            handleEnd={({ renderedSteps, steps, values }) => {
+              let data;
 
-            if (this.state.hasBankID) {
-              data = {
-                name: "Albin",
-                city: "Stockholm",
-                age: 19,
-                employmentType: values[0],
-                profession: values[1]
+              if (this.state.hasBankID === "true") {
+                data = {
+                  name: "Albin",
+                  city: "Stockholm",
+                  age: 19,
+                  employmentType: values[0],
+                  profession: values[1]
+                };
+              } else {
+                data = {
+                  name: values[0],
+                  city: values[1],
+                  age: values[2],
+                  employmentType: values[3],
+                  profession: values[4]
+                };
+              }
+
+              const setData = async () => {
+                await AsyncStorage.setItem("data", JSON.stringify(data))
+                  .then(() => {
+                    // Set data success
+                  })
+                  .catch(err => {
+                    console.log(err.message);
+                  });
               };
-            } else {
-              data = {
-                name: values[0],
-                city: values[1],
-                age: values[2],
-                employmentType: values[3],
-                profession: values[4]
-              };
-            }
 
-            const setData = async () => {
-              await AsyncStorage.setItem("data", JSON.stringify(data))
-                .then(() => {
-                  // Set data success
-                })
-                .catch(err => {
-                  console.log(err.message);
-                });
-            };
-
-            setData();
-          }}
-        />
+              setData();
+            }}
+          />
+        )}
       </View>
     );
   }
