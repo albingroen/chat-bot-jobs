@@ -1,0 +1,2387 @@
+{
+  "ms": 0,
+  "status": "success",
+  "data": {
+    "Version": "2018-10-24T18:45:31+02:00",
+    "Result": [
+      {
+        "Id": 4010000000002704,
+        "Number": 1,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000002726,
+        "Number": 2,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000002748,
+        "Number": 3,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000002770,
+        "Number": 4,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000494227267,
+        "Number": 6,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000423750486,
+        "Number": 50,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003381,
+        "Number": 53,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000423750502,
+        "Number": 54,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003403,
+        "Number": 55,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003425,
+        "Number": 56,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000423750738,
+        "Number": 57,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000423750691,
+        "Number": 61,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003491,
+        "Number": 65,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003513,
+        "Number": 66,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000423750675,
+        "Number": 67,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000453221860,
+        "Number": 68,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003535,
+        "Number": 69,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003579,
+        "Number": 71,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003623,
+        "Number": 72,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003667,
+        "Number": 74,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000518726048,
+        "Number": 75,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003689,
+        "Number": 76,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003711,
+        "Number": 77,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003733,
+        "Number": 91,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000423750659,
+        "Number": 93,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003755,
+        "Number": 94,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003777,
+        "Number": 96,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003799,
+        "Number": 110,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003821,
+        "Number": 112,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003843,
+        "Number": 113,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003865,
+        "Number": 114,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003882,
+        "Number": 115,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003899,
+        "Number": 116,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003921,
+        "Number": 117,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003943,
+        "Number": 118,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003965,
+        "Number": 119,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000003987,
+        "Number": 124,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004009,
+        "Number": 127,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004031,
+        "Number": 133,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004053,
+        "Number": 134,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004075,
+        "Number": 135,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004097,
+        "Number": 141,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004119,
+        "Number": 142,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004141,
+        "Number": 143,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004163,
+        "Number": 144,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000443916197,
+        "Number": 145,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004185,
+        "Number": 147,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004207,
+        "Number": 151,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004273,
+        "Number": 152,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004295,
+        "Number": 153,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004339,
+        "Number": 155,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000447183917,
+        "Number": 156,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004383,
+        "Number": 157,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004405,
+        "Number": 158,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000446442381,
+        "Number": 159,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004449,
+        "Number": 160,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004471,
+        "Number": 161,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004493,
+        "Number": 163,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004515,
+        "Number": 164,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004532,
+        "Number": 165,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004576,
+        "Number": 167,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004598,
+        "Number": 168,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004620,
+        "Number": 172,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004642,
+        "Number": 173,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004664,
+        "Number": 176,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004686,
+        "Number": 177,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004708,
+        "Number": 178,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004730,
+        "Number": 179,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000004752,
+        "Number": 180,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004774,
+        "Number": 181,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004796,
+        "Number": 182,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004818,
+        "Number": 183,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004835,
+        "Number": 184,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004852,
+        "Number": 185,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004896,
+        "Number": 188,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004918,
+        "Number": 190,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004940,
+        "Number": 191,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004962,
+        "Number": 192,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000004984,
+        "Number": 193,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005006,
+        "Number": 194,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005028,
+        "Number": 195,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005050,
+        "Number": 196,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005072,
+        "Number": 197,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005094,
+        "Number": 198,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005116,
+        "Number": 199,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005138,
+        "Number": 201,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005182,
+        "Number": 203,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005204,
+        "Number": 204,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005226,
+        "Number": 205,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005248,
+        "Number": 206,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005292,
+        "Number": 211,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005314,
+        "Number": 212,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005336,
+        "Number": 221,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005380,
+        "Number": 222,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005402,
+        "Number": 225,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005424,
+        "Number": 233,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000424561374,
+        "Number": 238,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000153966007,
+        "Number": 282,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005492,
+        "Number": 291,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005514,
+        "Number": 293,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005580,
+        "Number": 301,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005602,
+        "Number": 302,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005624,
+        "Number": 303,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005646,
+        "Number": 305,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005668,
+        "Number": 309,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005690,
+        "Number": 311,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005712,
+        "Number": 312,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005734,
+        "Number": 313,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005756,
+        "Number": 314,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005778,
+        "Number": 315,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005800,
+        "Number": 316,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005822,
+        "Number": 317,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005866,
+        "Number": 323,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005888,
+        "Number": 325,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005910,
+        "Number": 336,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005932,
+        "Number": 338,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005954,
+        "Number": 342,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005976,
+        "Number": 396,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000005998,
+        "Number": 401,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006020,
+        "Number": 402,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006042,
+        "Number": 403,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006108,
+        "Number": 409,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006130,
+        "Number": 410,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000405879502,
+        "Number": 411,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006174,
+        "Number": 413,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006196,
+        "Number": 414,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006218,
+        "Number": 417,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006240,
+        "Number": 418,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006262,
+        "Number": 420,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006284,
+        "Number": 421,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006306,
+        "Number": 422,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000405879487,
+        "Number": 423,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006328,
+        "Number": 424,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006372,
+        "Number": 425,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006394,
+        "Number": 426,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006416,
+        "Number": 428,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006438,
+        "Number": 429,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006460,
+        "Number": 430,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006504,
+        "Number": 432,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006526,
+        "Number": 433,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006548,
+        "Number": 434,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006570,
+        "Number": 435,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006592,
+        "Number": 436,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006614,
+        "Number": 437,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006636,
+        "Number": 438,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006658,
+        "Number": 439,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006680,
+        "Number": 440,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000339730564,
+        "Number": 441,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006702,
+        "Number": 442,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006724,
+        "Number": 443,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006746,
+        "Number": 444,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006768,
+        "Number": 445,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006790,
+        "Number": 446,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000339791447,
+        "Number": 447,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006812,
+        "Number": 448,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006834,
+        "Number": 449,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000004401586,
+        "Number": 452,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000004401603,
+        "Number": 453,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000371434643,
+        "Number": 454,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000405879518,
+        "Number": 458,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006890,
+        "Number": 461,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006912,
+        "Number": 462,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006934,
+        "Number": 463,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006956,
+        "Number": 465,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000040244772,
+        "Number": 467,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000405879534,
+        "Number": 468,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000006978,
+        "Number": 469,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007000,
+        "Number": 471,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000007022,
+        "Number": 474,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000352227404,
+        "Number": 480,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007088,
+        "Number": 491,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007110,
+        "Number": 492,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007132,
+        "Number": 496,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007154,
+        "Number": 497,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340607880,
+        "Number": 502,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007176,
+        "Number": 503,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007198,
+        "Number": 504,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007220,
+        "Number": 505,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007242,
+        "Number": 506,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007259,
+        "Number": 507,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007281,
+        "Number": 508,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007303,
+        "Number": 509,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000102568925,
+        "Number": 512,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007325,
+        "Number": 513,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007342,
+        "Number": 514,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007364,
+        "Number": 515,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007386,
+        "Number": 516,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007408,
+        "Number": 517,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007430,
+        "Number": 518,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007474,
+        "Number": 520,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007496,
+        "Number": 522,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007513,
+        "Number": 523,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007535,
+        "Number": 524,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007557,
+        "Number": 525,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007579,
+        "Number": 526,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007601,
+        "Number": 527,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000042696323,
+        "Number": 528,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007623,
+        "Number": 529,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007645,
+        "Number": 531,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007667,
+        "Number": 532,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007689,
+        "Number": 533,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007711,
+        "Number": 534,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007733,
+        "Number": 535,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007755,
+        "Number": 536,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007777,
+        "Number": 537,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007799,
+        "Number": 538,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007821,
+        "Number": 539,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007843,
+        "Number": 540,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007865,
+        "Number": 541,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007887,
+        "Number": 542,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007909,
+        "Number": 543,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007931,
+        "Number": 544,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007948,
+        "Number": 545,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007970,
+        "Number": 546,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000007992,
+        "Number": 547,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000003854439,
+        "Number": 548,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000526296037,
+        "Number": 549,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000467542519,
+        "Number": 550,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494592799,
+        "Number": 553,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008102,
+        "Number": 554,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008124,
+        "Number": 555,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008146,
+        "Number": 556,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008190,
+        "Number": 558,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008212,
+        "Number": 559,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008234,
+        "Number": 560,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008256,
+        "Number": 561,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008278,
+        "Number": 562,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494580174,
+        "Number": 564,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008300,
+        "Number": 565,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008322,
+        "Number": 566,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008344,
+        "Number": 567,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008366,
+        "Number": 568,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008388,
+        "Number": 570,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008410,
+        "Number": 571,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000181254381,
+        "Number": 572,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008432,
+        "Number": 573,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008449,
+        "Number": 574,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008471,
+        "Number": 575,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008493,
+        "Number": 576,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008515,
+        "Number": 577,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000238160607,
+        "Number": 579,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008554,
+        "Number": 580,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008571,
+        "Number": 581,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008593,
+        "Number": 582,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008615,
+        "Number": 583,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008659,
+        "Number": 585,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000004424466,
+        "Number": 586,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008725,
+        "Number": 589,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008747,
+        "Number": 591,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008791,
+        "Number": 592,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000109010944,
+        "Number": 593,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008813,
+        "Number": 595,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008835,
+        "Number": 597,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008857,
+        "Number": 598,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000468475864,
+        "Number": 599,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008879,
+        "Number": 601,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008923,
+        "Number": 602,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008962,
+        "Number": 604,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000008984,
+        "Number": 605,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009001,
+        "Number": 606,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009023,
+        "Number": 607,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009045,
+        "Number": 608,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009089,
+        "Number": 609,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009111,
+        "Number": 610,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009133,
+        "Number": 611,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009155,
+        "Number": 613,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009177,
+        "Number": 614,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009211,
+        "Number": 615,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009228,
+        "Number": 616,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009272,
+        "Number": 617,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009289,
+        "Number": 618,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009311,
+        "Number": 619,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009328,
+        "Number": 620,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009350,
+        "Number": 621,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009372,
+        "Number": 622,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009394,
+        "Number": 623,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009416,
+        "Number": 624,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009438,
+        "Number": 625,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009460,
+        "Number": 626,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009482,
+        "Number": 627,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009504,
+        "Number": 628,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009526,
+        "Number": 629,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009548,
+        "Number": 630,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009570,
+        "Number": 631,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009587,
+        "Number": 632,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009609,
+        "Number": 633,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009631,
+        "Number": 634,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000178507895,
+        "Number": 635,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009653,
+        "Number": 636,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009675,
+        "Number": 637,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009697,
+        "Number": 638,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009714,
+        "Number": 639,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009736,
+        "Number": 641,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009758,
+        "Number": 642,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009780,
+        "Number": 643,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000003854417,
+        "Number": 644,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009802,
+        "Number": 645,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009824,
+        "Number": 646,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009846,
+        "Number": 647,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009868,
+        "Number": 648,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009890,
+        "Number": 649,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494601567,
+        "Number": 650,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000009956,
+        "Number": 651,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010000,
+        "Number": 652,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010022,
+        "Number": 653,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010044,
+        "Number": 654,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010066,
+        "Number": 655,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010088,
+        "Number": 656,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010132,
+        "Number": 657,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010176,
+        "Number": 658,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010286,
+        "Number": 660,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010308,
+        "Number": 661,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010330,
+        "Number": 662,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010352,
+        "Number": 663,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000107507318,
+        "Number": 664,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010369,
+        "Number": 665,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010391,
+        "Number": 666,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010413,
+        "Number": 667,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010435,
+        "Number": 668,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010457,
+        "Number": 670,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000010479,
+        "Number": 676,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000046885939,
+        "Number": 677,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000010501,
+        "Number": 680,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010545,
+        "Number": 681,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010589,
+        "Number": 682,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000447195635,
+        "Number": 683,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010633,
+        "Number": 684,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000047788266,
+        "Number": 685,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000106287764,
+        "Number": 686,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000181254442,
+        "Number": 687,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010655,
+        "Number": 688,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000149111209,
+        "Number": 689,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010699,
+        "Number": 690,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010721,
+        "Number": 691,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010743,
+        "Number": 694,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010765,
+        "Number": 695,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000240340518,
+        "Number": 696,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010809,
+        "Number": 697,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010831,
+        "Number": 698,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010853,
+        "Number": 699,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010875,
+        "Number": 702,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010897,
+        "Number": 703,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010919,
+        "Number": 704,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010941,
+        "Number": 705,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010963,
+        "Number": 706,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000010985,
+        "Number": 707,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011007,
+        "Number": 708,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011029,
+        "Number": 709,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011051,
+        "Number": 710,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011073,
+        "Number": 711,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011095,
+        "Number": 713,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000028985881,
+        "Number": 714,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011117,
+        "Number": 715,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011139,
+        "Number": 716,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011161,
+        "Number": 717,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011183,
+        "Number": 718,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011205,
+        "Number": 719,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011227,
+        "Number": 721,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011249,
+        "Number": 722,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011271,
+        "Number": 723,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011293,
+        "Number": 725,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011315,
+        "Number": 726,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011337,
+        "Number": 727,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011359,
+        "Number": 729,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000004377086,
+        "Number": 731,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011403,
+        "Number": 737,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011425,
+        "Number": 738,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011447,
+        "Number": 740,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011469,
+        "Number": 742,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000004377109,
+        "Number": 743,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011513,
+        "Number": 744,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000003854395,
+        "Number": 745,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011535,
+        "Number": 748,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340608011,
+        "Number": 749,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011557,
+        "Number": 750,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011579,
+        "Number": 751,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340608039,
+        "Number": 752,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011601,
+        "Number": 753,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011623,
+        "Number": 754,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011667,
+        "Number": 756,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340608061,
+        "Number": 758,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340608089,
+        "Number": 759,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000340608111,
+        "Number": 761,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000411170645,
+        "Number": 776,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000411178672,
+        "Number": 778,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011843,
+        "Number": 779,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011865,
+        "Number": 780,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011887,
+        "Number": 781,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011909,
+        "Number": 782,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011926,
+        "Number": 783,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011970,
+        "Number": 784,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000019146855,
+        "Number": 785,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000011992,
+        "Number": 786,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012014,
+        "Number": 787,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012036,
+        "Number": 788,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012058,
+        "Number": 789,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012080,
+        "Number": 791,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012102,
+        "Number": 792,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012124,
+        "Number": 794,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012141,
+        "Number": 795,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494466005,
+        "Number": 796,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012163,
+        "Number": 797,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012180,
+        "Number": 798,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012197,
+        "Number": 801,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000442395674,
+        "Number": 802,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494580144,
+        "Number": 805,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012241,
+        "Number": 806,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012263,
+        "Number": 807,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000494580117,
+        "Number": 808,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012285,
+        "Number": 809,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012307,
+        "Number": 810,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012351,
+        "Number": 812,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012373,
+        "Number": 813,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000373472454,
+        "Number": 814,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012395,
+        "Number": 815,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012417,
+        "Number": 816,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012439,
+        "Number": 818,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012461,
+        "Number": 819,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000432894409,
+        "Number": 820,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012483,
+        "Number": 821,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012505,
+        "Number": 822,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012527,
+        "Number": 823,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012549,
+        "Number": 824,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012610,
+        "Number": 827,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012632,
+        "Number": 828,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012654,
+        "Number": 829,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012676,
+        "Number": 830,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012698,
+        "Number": 831,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012720,
+        "Number": 832,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012742,
+        "Number": 833,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012764,
+        "Number": 834,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012786,
+        "Number": 835,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012808,
+        "Number": 836,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012830,
+        "Number": 837,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012852,
+        "Number": 839,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012874,
+        "Number": 840,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012896,
+        "Number": 841,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012918,
+        "Number": 842,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012940,
+        "Number": 843,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012962,
+        "Number": 845,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000012984,
+        "Number": 846,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013006,
+        "Number": 847,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013028,
+        "Number": 848,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013050,
+        "Number": 849,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013072,
+        "Number": 850,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013140,
+        "Number": 852,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013162,
+        "Number": 854,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013184,
+        "Number": 856,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013206,
+        "Number": 858,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013228,
+        "Number": 861,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000086267494,
+        "Number": 862,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013272,
+        "Number": 865,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013294,
+        "Number": 869,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013338,
+        "Number": 873,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000013360,
+        "Number": 875,
+        "GroupOfLine": "blåbuss"
+      },
+      {
+        "Id": 4010000000013448,
+        "Number": 889,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013470,
+        "Number": 890,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013492,
+        "Number": 892,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000000013514,
+        "Number": 893,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000180457615,
+        "Number": 898,
+        "GroupOfLine": "Buss"
+      },
+      {
+        "Id": 4010000399442068,
+        "Number": 921,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000399442084,
+        "Number": 923,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000065429494,
+        "Name": "Ersätter Saltsjöbanan",
+        "Number": 925,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000485245681,
+        "Name": "Ersätter Roslagsbanan",
+        "Number": 944,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000485245639,
+        "Name": "Ersätter Roslagsbanan",
+        "Number": 946,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000485245618,
+        "Name": "Ersätter Roslagsbanan",
+        "Number": 947,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000460665259,
+        "Number": 953,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000485245597,
+        "Name": "Ersätter Roslagsbanan",
+        "Number": 956,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000485245576,
+        "Name": "Ersätter Saltsjöbanan",
+        "Number": 957,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000485245516,
+        "Name": "Ersätter Saltsjöbanan",
+        "Number": 965,
+        "GroupOfLine": "Ersättningsbuss"
+      },
+      {
+        "Id": 4010000460665336,
+        "Number": 978,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000460665370,
+        "Number": 979,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000422240042,
+        "Number": 981,
+        "GroupOfLine": "Närtrafiken"
+      },
+      {
+        "Id": 4010000000014272,
+        "Name": "Ersätter Pendeltåget",
+        "Number": 986,
+        "GroupOfLine": "Ersättningsbuss"
+      }
+    ]
+  }
+}

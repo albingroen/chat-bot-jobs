@@ -1,0 +1,44 @@
+{
+   "ms":0,
+   "status":"success",
+   "data":{
+      "Version":"2018-10-24T18:45:31+02:00",
+      "Result":[
+         {
+            "Id":4010000000002792,
+            "Number":10,
+            "GroupOfLine":"tunnelbanans blå linje"
+         },
+         {
+            "Id":4010000000002814,
+            "Number":11,
+            "GroupOfLine":"tunnelbanans blå linje"
+         },
+         {
+            "Id":4010000000002858,
+            "Number":13,
+            "GroupOfLine":"tunnelbanans röda linje"
+         },
+         {
+            "Id":4010000000002880,
+            "Number":14,
+            "GroupOfLine":"tunnelbanans röda linje"
+         },
+         {
+            "Id":4010000000002902,
+            "Number":17,
+            "GroupOfLine":"tunnelbanans gröna linje"
+         },
+         {
+            "Id":4010000000002924,
+            "Number":18,
+            "GroupOfLine":"tunnelbanans gröna linje"
+         },
+         {
+            "Id":4010000000002946,
+            "Number":19,
+            "GroupOfLine":"tunnelbanans gröna linje"
+         }
+      ]
+   }
+}
