@@ -6,7 +6,9 @@ import Button from "../components/Button";
 import Title from "../components/Title";
 
 export const Hand = props => {
-  const { handleClick } = props;
+  const { triggerNextStep } = props;
+
+  console.log(triggerNextStep);
 
   return (
     <View
@@ -18,7 +20,7 @@ export const Hand = props => {
       }}
     >
       <TouchableOpacity
-        onPress={() => handleClick()}
+        onPress={() => triggerNextStep({ trigger: "3" })}
         style={{
           height: 50,
           width: 50,
@@ -33,7 +35,7 @@ export const Hand = props => {
         <Text style={{ fontSize: 25 }}>👍</Text>
       </TouchableOpacity>
       <TouchableOpacity
-        onPress={() => handleClick()}
+        onPress={() => triggerNextStep({ trigger: "3" })}
         style={{
           height: 50,
           width: 50,
@@ -83,15 +85,12 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "2",
-        component: (
-          <Hand
-            handleClick={() => {
-              this.setState({ clickedHand: true });
-              steps.push({ id: "3", message: "Awesome!", end: true });
-            }}
-          />
-        ),
-        trigger: this.state.clickedHand && "3"
+        component: <Hand />,
+        waitAction: true
+      },
+      {
+        id: 3,
+        message: "Awesome!"
       }
     ];
 
