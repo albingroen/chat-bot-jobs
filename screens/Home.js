@@ -19,7 +19,7 @@ class HomeScreen extends React.Component {
           Need a job within a day? That's fully possible with Nina.
         </Paragraph>
 
-        <Button onClick={() => navigate("Jobs")}>Nu kör vi!</Button>
+        <Button onClick={() => navigate("Conversation")}>Nu kör vi!</Button>
       </View>
     );
   }
