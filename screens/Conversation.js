@@ -1,14 +1,9 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import ChatBot from "react-native-chatbot";
-import KeyboardAvoid from "../components/KeyboardAvoid";
-import Button from "../components/Button";
-import Title from "../components/Title";
 
 export const Hand = props => {
   const { triggerNextStep } = props;
-
-  console.log(triggerNextStep);
 
   return (
     <View
@@ -53,13 +48,6 @@ export const Hand = props => {
 };
 
 class ConversationScreen extends React.Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     clickedHand: false
-  //   };
-  // }
-
   static navigationOptions = {
     title: "Nina",
     headerTintColor: "white",

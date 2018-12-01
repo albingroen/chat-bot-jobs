@@ -1,11 +1,13 @@
 import { createStackNavigator } from "react-navigation";
 import HomeScreen from "./screens/Home";
 import ConversationScreen from "./screens/Conversation";
+import JobScreen from "./screens/Jobs";
 
 const App = createStackNavigator(
   {
     Home: { screen: HomeScreen },
-    Conversation: { screen: ConversationScreen }
+    Conversation: { screen: ConversationScreen },
+    Jobs: { screen: JobScreen }
   },
   {
     navigationOptions: {
