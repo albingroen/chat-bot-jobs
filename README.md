@@ -1,4 +1,4 @@
-# Open-Hack Project
+# Nina - App for finding a job 
 
 ## Installation
 

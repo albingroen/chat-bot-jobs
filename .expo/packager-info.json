@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://8x-p3f.albingroen.openhack-project.exp.direct",
+  "packagerNgrokUrl": "https://packager.8x-p3f.albingroen.openhack-project.exp.direct",
+  "ngrokPid": 38095
 }
