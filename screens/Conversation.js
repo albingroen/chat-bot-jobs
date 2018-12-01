@@ -53,12 +53,12 @@ export const Hand = props => {
 };
 
 class ConversationScreen extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      clickedHand: false
-    };
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     clickedHand: false
+  //   };
+  // }
 
   static navigationOptions = {
     title: "Nina",
@@ -70,8 +70,6 @@ class ConversationScreen extends React.Component {
   };
 
   render() {
-    const { clickedHand } = this.state;
-
     const steps = [
       {
         id: "0",
@@ -89,14 +87,34 @@ class ConversationScreen extends React.Component {
         waitAction: true
       },
       {
-        id: 3,
-        message: "Awesome!"
+        id: "3",
+        message: "Awesome, what hiring-form are you looking for?",
+        trigger: "4"
+      },
+      {
+        id: "4",
+        user: true,
+        trigger: "5"
+      },
+      {
+        id: "5",
+        message: "Great"
       }
     ];
 
     return (
       <View style={styles.ScreenWrapper}>
         <ChatBot
+          submitButtonStyle={{
+            backgroundColor: "dodgerblue",
+            color: "white",
+            borderRadius: 3,
+            borderRadius: 50
+          }}
+          inputStyle={{ flex: 1, borderRadius: 50 }}
+          userDelay={500}
+          userBubbleColor="dodgerblue"
+          userFontColor="white"
           avatarStyle={{ borderRadius: 50 }}
           botBubbleColor="#222"
           contentStyle={{ backgroundColor: "white" }}
