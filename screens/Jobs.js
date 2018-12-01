@@ -1,36 +1,70 @@
 import React from "react";
 import moment from "moment";
-import { View, TouchableOpacity, Text, ScrollView } from "react-native";
+import {
+  View,
+  TouchableOpacity,
+  Text,
+  ScrollView,
+  AsyncStorage
+} from "react-native";
 import axios from "axios";
 
 class JobsScreen extends React.Component {
   constructor() {
     super();
     this.state = {
-      jobs: []
+      jobs: [],
+      personalData: {
+        name: "",
+        city: "",
+        age: 0,
+        employmentType: "",
+        profession: ""
+      }
     };
   }
 
   componentDidMount() {
-    axios
-      .get(
-        "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=19&nyckelord=programmering",
-        {
-          headers: {
-            "Accept-Language": "application/json"
-          }
+    const fetchData = async () => {
+      try {
+        const value = await AsyncStorage.getItem("data");
+        if (value !== null) {
+          // We have data!!
+          console.log(JSON.parse(value));
+
+          this.setState({
+            personalData: JSON.parse(value)
+          });
+
+          axios
+            .get(
+              `http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=19&nyckelord=${
+                JSON.parse(value).profession
+              }`,
+              {
+                headers: {
+                  "Accept-Language": "application/json"
+                }
+              }
+            )
+            .then(res => {
+              this.setState({
+                jobs: res.data.matchningslista.matchningdata
+              });
+            })
+            .catch(err => console.log("Något gick fel"));
         }
-      )
-      .then(res => {
-        this.setState({
-          jobs: res.data.matchningslista.matchningdata
-        });
-      })
-      .catch(err => console.log(err));
+      } catch (error) {
+        // Error retrieving data
+        console.log("Could not fetch data");
+      }
+    };
+
+    fetchData();
   }
 
   render() {
-    const { jobs } = this.state;
+    const { jobs, personalData } = this.state;
 
     return (
       <ScrollView
@@ -126,8 +160,6 @@ export class JobCard extends React.Component {
   render() {
     const { job } = this.props;
     const { jobInfo, size } = this.state;
-
-    console.log(job);
 
     return size === 0 ? (
       <TouchableOpacity

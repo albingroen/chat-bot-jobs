@@ -1,5 +1,11 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  AsyncStorage
+} from "react-native";
 import ChatBot from "react-native-chatbot";
 
 export const Button = props => {
@@ -63,6 +69,13 @@ export const Hand = props => {
 };
 
 class ConversationScreen extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      data: {}
+    };
+  }
+
   static navigationOptions = {
     title: "Nina",
     headerTintColor: "white",
@@ -162,6 +175,33 @@ class ConversationScreen extends React.Component {
 
     return (
       <View style={styles.ScreenWrapper}>
+        <TouchableOpacity
+          onPress={({ renderedSteps, steps, values }) => {
+            const data = {
+              name: "Albin",
+              city: "Stockholm",
+              age: 19,
+              employmentType: "Heltid",
+              profession: "restaurang"
+            };
+
+            const setData = async () => {
+              await AsyncStorage.setItem("data", JSON.stringify(data))
+                .then(() => {
+                  console.log("It was saved successfully");
+                })
+                .catch(() => {
+                  console.log("There was an error saving the product");
+                });
+            };
+
+            setData();
+
+            this.props.navigation.navigate("Jobs");
+          }}
+        >
+          <Text>Skip</Text>
+        </TouchableOpacity>
         <ChatBot
           submitButtonStyle={{
             backgroundColor: "dodgerblue",
@@ -177,9 +217,27 @@ class ConversationScreen extends React.Component {
           botBubbleColor="#222"
           contentStyle={{ backgroundColor: "white" }}
           steps={steps}
-          handleEnd={({ renderedSteps, steps, values }) =>
-            this.setState({ name: values[0] })
-          }
+          handleEnd={({ renderedSteps, steps, values }) => {
+            const data = {
+              name: values[0],
+              city: values[1],
+              age: values[2],
+              employmentType: values[3],
+              profession: values[4]
+            };
+
+            const setData = async () => {
+              await AsyncStorage.setItem("data", JSON.stringify(data))
+                .then(() => {
+                  console.log("It was saved successfully");
+                })
+                .catch(() => {
+                  console.log("There was an error saving the product");
+                });
+            };
+
+            setData();
+          }}
         />
       </View>
     );
