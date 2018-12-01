@@ -195,7 +195,7 @@ export class JobCard extends React.Component {
           <View
             style={{
               backgroundColor: "#222",
-              borderRadius: "100px",
+              borderRadius: 100,
               padding: 25,
 
               height: 130,
@@ -220,7 +220,7 @@ export class JobCard extends React.Component {
           <View
             style={{
               backgroundColor: "#BF7483",
-              borderRadius: "100px",
+              borderRadius: 100,
               padding: 25,
 
               height: 130,
@@ -244,7 +244,7 @@ export class JobCard extends React.Component {
           <View
             style={{
               backgroundColor: "#639673",
-              borderRadius: "100px",
+              borderRadius: 100,
               padding: 25,
 
               height: 125,
@@ -268,7 +268,7 @@ export class JobCard extends React.Component {
           <View
             style={{
               backgroundColor: "#DFA122",
-              borderRadius: "100px",
+              borderRadius: 100,
               padding: 25,
 
               height: 100,
