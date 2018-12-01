@@ -1,3 +1,12 @@
+TEAM NAME: Hattifnats
+TEAM MEMBERS:
+CASE: JobTech
+SOLUTION: An app that hels jobseekers find interesting positions through a chat with an AI.
+LICENCE:
+LANGUAGES USED:
+SERVICES USED:
+
+
 # Nina - App for finding a job 
 
 ## Installation
