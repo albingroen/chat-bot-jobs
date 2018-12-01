@@ -72,8 +72,27 @@ class ConversationScreen extends React.Component {
   constructor() {
     super();
     this.state = {
-      data: {}
+      data: {},
+      hasBankID: "false"
     };
+  }
+
+  componentDidMount() {
+    const fetchData = async () => {
+      try {
+        const value = await AsyncStorage.getItem("bankid");
+
+        if (value !== null) {
+          this.setState({
+            hasBankID: value
+          });
+        }
+      } catch (error) {
+        // Error retrieving data
+      }
+    };
+
+    fetchData();
   }
 
   static navigationOptions = {
@@ -86,7 +105,7 @@ class ConversationScreen extends React.Component {
   };
 
   render() {
-    const steps = [
+    const steps1 = [
       {
         id: "0",
         message: "Welcome to Nina!",
@@ -173,6 +192,59 @@ class ConversationScreen extends React.Component {
       }
     ];
 
+    const steps2 = [
+      {
+        id: "0",
+        message: "Welcome to Nina, great that you have BankID!",
+        trigger: "1"
+      },
+      {
+        id: "1",
+        message: "Lets get started",
+        trigger: "2"
+      },
+      {
+        id: "2",
+        component: <Hand />,
+        waitAction: true
+      },
+
+      {
+        id: "3",
+        message: "What type of employment do you want?",
+        trigger: "4"
+      },
+      {
+        id: "4",
+        user: true,
+        trigger: "5"
+      },
+      {
+        id: "5",
+        message: "And, what do you want to work as?",
+        trigger: "6"
+      },
+      {
+        id: "6",
+        user: true,
+        trigger: "7"
+      },
+      {
+        id: "7",
+        message: "Awesome, I will find some great jobs for you very soon!",
+        trigger: "8"
+      },
+      {
+        id: "8",
+        component: (
+          <Button
+            handleFindJobs={() => this.props.navigation.navigate("Jobs")}
+          />
+        ),
+        end: true
+      }
+    ];
+
     return (
       <View style={styles.ScreenWrapper}>
         <TouchableOpacity
@@ -188,10 +260,10 @@ class ConversationScreen extends React.Component {
             const setData = async () => {
               await AsyncStorage.setItem("data", JSON.stringify(data))
                 .then(() => {
-                  console.log("It was saved successfully");
+                  // Set data success
                 })
-                .catch(() => {
-                  console.log("There was an error saving the product");
+                .catch(err => {
+                  console.log(err.message);
                 });
             };
 
@@ -216,7 +288,7 @@ class ConversationScreen extends React.Component {
           avatarStyle={{ borderRadius: 50 }}
           botBubbleColor="#222"
           contentStyle={{ backgroundColor: "white" }}
-          steps={steps}
+          steps={this.state.hasBankID ? steps2 : steps1}
           handleEnd={({ renderedSteps, steps, values }) => {
             const data = {
               name: values[0],
@@ -229,10 +301,10 @@ class ConversationScreen extends React.Component {
             const setData = async () => {
               await AsyncStorage.setItem("data", JSON.stringify(data))
                 .then(() => {
-                  console.log("It was saved successfully");
+                  // Set data success
                 })
-                .catch(() => {
-                  console.log("There was an error saving the product");
+                .catch(err => {
+                  console.log(err.message);
                 });
             };
 

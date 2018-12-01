@@ -29,9 +29,6 @@ class JobsScreen extends React.Component {
       try {
         const value = await AsyncStorage.getItem("data");
         if (value !== null) {
-          // We have data!!
-          console.log(JSON.parse(value));
-
           this.setState({
             personalData: JSON.parse(value)
           });
@@ -52,7 +49,7 @@ class JobsScreen extends React.Component {
                 jobs: res.data.matchningslista.matchningdata
               });
             })
-            .catch(err => console.log("Något gick fel"));
+            .catch(err => console.log(err.message));
         }
       } catch (error) {
         // Error retrieving data

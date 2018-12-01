@@ -1,5 +1,12 @@
 import React from "react";
-import { Image, View, StyleSheet, Text, TouchableOpacity } from "react-native";
+import {
+  Image,
+  View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  AsyncStorage
+} from "react-native";
 
 class HomeScreen extends React.Component {
   render() {
@@ -8,9 +15,10 @@ class HomeScreen extends React.Component {
     return (
       <View style={styles.ScreenWrapper}>
         <Image
+          resizeMode="contain"
           style={styles.Image}
           source={{
-            uri: "http://placehold.it/200x200"
+            uri: "https://i.imgur.com/7Pi6VYq.png"
           }}
         />
 
@@ -20,7 +28,20 @@ class HomeScreen extends React.Component {
         </Text>
 
         <TouchableOpacity
-          onPress={() => navigate("Conversation")}
+          onPress={() => {
+            navigate("Conversation");
+            const setData = async () => {
+              await AsyncStorage.setItem("bankid", "true")
+                .then(() => {
+                  // Save data success
+                })
+                .catch(err => {
+                  console.log(err.message);
+                });
+            };
+
+            setData();
+          }}
           style={styles.button}
         >
           <Image
@@ -35,7 +56,20 @@ class HomeScreen extends React.Component {
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => navigate("Conversation")}
+          onPress={() => {
+            navigate("Conversation");
+            const setData = async () => {
+              await AsyncStorage.setItem("bankid", "false")
+                .then(() => {
+                  // Save data success
+                })
+                .catch(err => {
+                  console.log(err.message);
+                });
+            };
+
+            setData();
+          }}
           style={styles.options}
         >
           <Text style={styles.optionsText}>I don't have BankID</Text>
@@ -47,8 +81,8 @@ class HomeScreen extends React.Component {
 
 const styles = StyleSheet.create({
   Image: {
-    width: 200,
-    height: 200
+    width: 250,
+    height: 250
   },
   ScreenWrapper: {
     flex: 1,
