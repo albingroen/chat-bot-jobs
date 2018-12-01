@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 import { View, TouchableOpacity, Text, ScrollView } from "react-native";
 import axios from "axios";
 
@@ -32,7 +33,37 @@ class JobsScreen extends React.Component {
     const { jobs } = this.state;
 
     return (
-      <ScrollView style={{ backgroundColor: "#f4f4f4", flex: 1 }}>
+      <ScrollView
+        style={{
+          backgroundColor: "#f4f4f4",
+          flex: 1,
+          flexDirection: "column"
+        }}
+        contentContainerStyle={{
+          justifyContent: "center",
+          alignItems: "stretch"
+        }}
+      >
+        <View
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            paddingTop: 20,
+            paddingBottom: 20
+          }}
+        >
+          <Text
+            style={{
+              fontSize: 18,
+              width: 300,
+              textAlign: "center",
+              lineHeight: 25
+            }}
+          >
+            Scrolla ner för jobbförslag som jag tror skulle passa dig
+          </Text>
+        </View>
         {jobs.length > 0 ? (
           jobs.map(job => {
             return <JobCard key={job.annonsid} job={job} />;
@@ -79,8 +110,6 @@ export class JobCard extends React.Component {
       "Junior"
     ];
 
-    console.log({ text });
-
     if (this.state.size === 1) {
       const matches = exampleTags
         .filter(tag => text.includes(tag.toLocaleLowerCase()))
@@ -98,20 +127,138 @@ export class JobCard extends React.Component {
     const { job } = this.props;
     const { jobInfo, size } = this.state;
 
+    console.log(job);
+
     return size === 0 ? (
       <TouchableOpacity
         onPress={() => this.loadInfo(job.annonsid)}
         style={{
-          backgroundColor: "white",
-          borderRadius: 3,
           padding: 20,
-          margin: 10
+          margin: 10,
+          backgroundColor: "white"
         }}
       >
-        <Text style={{ fontSize: 20 }}>{job.annonsrubrik}</Text>
-        <Text style={{ fontSize: 14, fontWeight: "600", paddingTop: 10 }}>
-          {job.arbetsplatsnamn}
+        <Text
+          style={{
+            fontSize: 22,
+            textAlign: "center",
+            backgroundColor: "#3D7BA5",
+            color: "white",
+            padding: 15,
+            fontWeight: "700"
+          }}
+        >
+          {job.annonsrubrik}
         </Text>
+
+        <View
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            paddingTop: 20
+          }}
+        >
+          <View
+            style={{
+              backgroundColor: "#222",
+              borderRadius: "100px",
+              padding: 25,
+
+              height: 130,
+              width: 130,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 18,
+                textAlign: "center",
+                fontWeight: "600",
+                color: "white"
+              }}
+            >
+              {job.arbetsplatsnamn}
+            </Text>
+          </View>
+
+          <View
+            style={{
+              backgroundColor: "#BF7483",
+              borderRadius: "100px",
+              padding: 25,
+
+              height: 130,
+              width: 130,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 18,
+                textAlign: "center",
+                fontWeight: "600",
+                color: "white"
+              }}
+            >
+              {job.anstallningstyp}
+            </Text>
+          </View>
+          <View
+            style={{
+              backgroundColor: "#639673",
+              borderRadius: "100px",
+              padding: 25,
+
+              height: 125,
+              width: 125,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 18,
+                textAlign: "center",
+                fontWeight: "600",
+                color: "white"
+              }}
+            >
+              {job.kommunnamn}
+            </Text>
+          </View>
+          <View
+            style={{
+              backgroundColor: "#DFA122",
+              borderRadius: "100px",
+              padding: 25,
+
+              height: 100,
+              width: 100,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 18,
+                textAlign: "center",
+                fontWeight: "600",
+                color: "white",
+                textTransform: "capitalize"
+              }}
+            >
+              {moment(job.sista_ansokningsdag).fromNow()}
+            </Text>
+          </View>
+        </View>
       </TouchableOpacity>
     ) : (
       <TouchableOpacity
@@ -130,8 +277,7 @@ export class JobCard extends React.Component {
           style={{
             fontSize: 20,
             opacity: 0.7,
-            fontWeight: "600",
-            paddingTop: 10
+            fontWeight: "600"
           }}
         >
           {job.arbetsplatsnamn}
