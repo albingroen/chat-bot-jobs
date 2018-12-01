@@ -31,8 +31,6 @@ class JobsScreen extends React.Component {
   render() {
     const { jobs } = this.state;
 
-    console.log(jobs);
-
     return (
       <ScrollView style={{ backgroundColor: "#f4f4f4", flex: 1 }}>
         {jobs.length > 0 ? (
@@ -53,8 +51,7 @@ export class JobCard extends React.Component {
   constructor() {
     super();
     this.state = {
-      size: 0,
-      jobInfo: {}
+      size: 0
     };
   }
 
@@ -66,12 +63,35 @@ export class JobCard extends React.Component {
         }
       })
       .then(res => {
-        console.log(res.data);
         this.setState({
           jobInfo: res.data.platsannons.annons,
           size: 1
         });
       });
+  }
+
+  renderTags(text) {
+    const exampleTags = [
+      "Javascript",
+      "Programmering",
+      "Kod",
+      "Webbutveckling",
+      "Junior"
+    ];
+
+    console.log({ text });
+
+    if (this.state.size === 1) {
+      const matches = exampleTags
+        .filter(tag => text.includes(tag.toLocaleLowerCase()))
+        .map(tag => tag);
+
+      if (matches === undefined) {
+        return [];
+      } else {
+        return matches;
+      }
+    }
   }
 
   render() {
@@ -103,10 +123,39 @@ export class JobCard extends React.Component {
           margin: 10
         }}
       >
-        <Text style={{ fontSize: 20 }}>{job.annonsrubrik}</Text>
-        <Text style={{ fontSize: 14, fontWeight: "600", paddingTop: 10 }}>
+        <Text style={{ fontSize: 30, fontWeight: "700" }}>
+          {job.annonsrubrik}
+        </Text>
+        <Text
+          style={{
+            fontSize: 20,
+            opacity: 0.7,
+            fontWeight: "600",
+            paddingTop: 10
+          }}
+        >
           {job.arbetsplatsnamn}
         </Text>
+
+        <View style={{ display: "flex", flexDirection: "row", paddingTop: 20 }}>
+          {this.renderTags(jobInfo.annonstext).map(m => {
+            return (
+              <View
+                key={m}
+                style={{
+                  backgroundColor: "#222",
+                  padding: 7,
+                  borderRadius: 5,
+                  display: "inline-flex",
+                  margin: 5
+                }}
+              >
+                <Text style={{ color: "white", fontSize: 16 }}>{m}</Text>
+              </View>
+            );
+          })}
+        </View>
+
         <Text style={{ fontSize: 14, paddingTop: 20 }}>
           {jobInfo.annonstext}
         </Text>
