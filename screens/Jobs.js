@@ -7,9 +7,14 @@ import {
   ScrollView,
   AsyncStorage
 } from "react-native";
+import Button from "../components/Button";
 import axios from "axios";
 
 class JobsScreen extends React.Component {
+  static navigationOptions = {
+    header: null
+  };
+
   constructor() {
     super();
     this.state = {
@@ -83,32 +88,57 @@ class JobsScreen extends React.Component {
           alignItems: "stretch"
         }}
       >
-        <View
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: 20,
-            paddingBottom: 20
-          }}
-        >
-          <Text
+        {jobs && jobs.length > 0 && (
+          <View
             style={{
-              fontSize: 18,
-              width: 300,
-              textAlign: "center",
-              lineHeight: 25
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingTop: 75,
+              paddingBottom: 20
             }}
           >
-            Scrolla ner för jobbförslag som jag tror skulle passa dig
-          </Text>
-        </View>
-        {jobs.length > 0 ? (
+            <Text
+              style={{
+                fontSize: 18,
+                width: 300,
+                textAlign: "center",
+                lineHeight: 25
+              }}
+            >
+              Scrolla ner för jobbförslag som jag tror skulle passa dig
+            </Text>
+          </View>
+        )}
+        {jobs && jobs.length > 0 ? (
           jobs.map(job => {
             return <JobCard key={job.annonsid} job={job} />;
           })
         ) : (
-          <Text>Laddar...</Text>
+          <View
+            style={{
+              paddingTop: 100,
+              flex: 1,
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
+            <Text
+              style={{
+                fontWeight: "700",
+                fontSize: 25,
+                textAlign: "center"
+              }}
+            >
+              Hittade inga jobb
+            </Text>
+            <Button
+              onClick={() => this.props.navigation.navigate("Conversation")}
+            >
+              Gör en ny sökning
+            </Button>
+          </View>
         )}
       </ScrollView>
     );
@@ -170,9 +200,9 @@ export class JobCard extends React.Component {
       <TouchableOpacity
         onPress={() => this.loadInfo(job.annonsid)}
         style={{
-          padding: 20,
           margin: 10,
-          backgroundColor: "white"
+          backgroundColor: "white",
+          borderRadius: 5
         }}
       >
         <Text
@@ -194,7 +224,7 @@ export class JobCard extends React.Component {
             flexDirection: "row",
             flexWrap: "wrap",
             justifyContent: "center",
-            paddingTop: 20
+            padding: 15
           }}
         >
           <View
@@ -202,7 +232,7 @@ export class JobCard extends React.Component {
               backgroundColor: "#222",
               borderRadius: 100,
               padding: 25,
-
+              margin: 2,
               height: 130,
               width: 130,
               display: "flex",
@@ -303,45 +333,57 @@ export class JobCard extends React.Component {
         style={{
           backgroundColor: "white",
           borderRadius: 3,
-          padding: 20,
           margin: 10
         }}
       >
-        <Text style={{ fontSize: 30, fontWeight: "700" }}>
-          {job.annonsrubrik}
-        </Text>
         <Text
           style={{
-            fontSize: 20,
-            opacity: 0.7,
-            fontWeight: "600"
+            fontSize: 30,
+            fontWeight: "700",
+            backgroundColor: "#3D7BA5",
+            color: "white",
+            padding: 15
           }}
         >
-          {job.arbetsplatsnamn}
+          {job.annonsrubrik}
         </Text>
 
-        <View style={{ display: "flex", flexDirection: "row", paddingTop: 20 }}>
-          {this.renderTags(jobInfo.annonstext).map(m => {
-            return (
-              <View
-                key={m}
-                style={{
-                  backgroundColor: "#222",
-                  padding: 7,
-                  borderRadius: 5,
-                  display: "inline-flex",
-                  margin: 5
-                }}
-              >
-                <Text style={{ color: "white", fontSize: 16 }}>{m}</Text>
-              </View>
-            );
-          })}
+        <View style={{ padding: 20 }}>
+          <Text
+            style={{
+              fontSize: 20,
+              opacity: 0.7,
+              fontWeight: "600"
+            }}
+          >
+            {job.arbetsplatsnamn}
+          </Text>
+          <View
+            style={{ display: "flex", flexDirection: "row", paddingTop: 20 }}
+          >
+            {this.renderTags(jobInfo.annonstext).map(m => {
+              return (
+                <View
+                  key={m}
+                  style={{
+                    backgroundColor: "#222",
+                    padding: 7,
+                    borderRadius: 5,
+                    display: "inline-flex",
+                    marginRight: 5,
+                    marginBottom: 5
+                  }}
+                >
+                  <Text style={{ color: "white", fontSize: 16 }}>{m}</Text>
+                </View>
+              );
+            })}
+          </View>
+
+          <Text style={{ fontSize: 14, paddingTop: 20 }}>
+            {jobInfo.annonstext}
+          </Text>
         </View>
-
-        <Text style={{ fontSize: 14, paddingTop: 20 }}>
-          {jobInfo.annonstext}
-        </Text>
       </TouchableOpacity>
     );
   }

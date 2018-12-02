@@ -35,15 +35,14 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 3,
     marginBottom: 50,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#3D7BA5",
     marginTop: 30,
     width: Dimensions.get("window").width - 40
   },
   ButtonText: {
     color: "white",
     textAlign: "center",
-    fontSize: 22,
-    fontWeight: "600"
+    fontSize: 18
   }
 });
 

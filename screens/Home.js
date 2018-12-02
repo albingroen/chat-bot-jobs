@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Dimensions,
   Image,
   View,
   StyleSheet,
@@ -9,6 +10,10 @@ import {
 } from "react-native";
 
 class HomeScreen extends React.Component {
+  static navigationOptions = {
+    header: null
+  };
+
   render() {
     const { navigate } = this.props.navigation;
 
@@ -23,8 +28,8 @@ class HomeScreen extends React.Component {
         />
 
         <Text style={styles.Paragraph}>
-          With this application you can in a quick and easy way find jobs based
-          on your skills and your interests.
+          Med den här appen kan du snabbt och enkelt utforska och hitta jobb
+          baserad på dina preferenser.
         </Text>
 
         <TouchableOpacity
@@ -52,7 +57,7 @@ class HomeScreen extends React.Component {
             }}
           />
 
-          <Text style={styles.buttonText}>Get started!</Text>
+          <Text style={styles.buttonText}>Kom igång med BankID</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -72,7 +77,7 @@ class HomeScreen extends React.Component {
           }}
           style={styles.options}
         >
-          <Text style={styles.optionsText}>I don't have BankID</Text>
+          <Text style={styles.optionsText}>Jag har inte BankID</Text>
         </TouchableOpacity>
       </View>
     );
@@ -103,21 +108,17 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 23
   },
-
   button: {
-    backgroundColor: "#3D7BA5",
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    color: "white",
-    fontSize: 18,
     padding: 15,
     borderRadius: 3,
-    width: 300,
-    marginTop: 30
+    backgroundColor: "#3C7CA6",
+    marginTop: 30,
+    width: Dimensions.get("window").width - 40,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center"
   },
-
   buttonText: {
     color: "white",
     fontSize: 18,
@@ -125,8 +126,8 @@ const styles = StyleSheet.create({
   },
 
   icon: {
-    width: 50,
-    height: 50,
+    width: 40,
+    height: 40,
     marginRight: 15
   },
 

@@ -17,7 +17,7 @@ export const Button = props => {
       style={{ backgroundColor: "dodgerblue", padding: 10, borderRadius: 50 }}
     >
       <Text style={{ color: "white", fontSize: 16, textAlign: "center" }}>
-        Find jobs
+        Visa jobb!
       </Text>
     </TouchableOpacity>
   );
@@ -110,12 +110,12 @@ class ConversationScreen extends React.Component {
     const steps1 = [
       {
         id: "0",
-        message: "Welcome to Nina!",
+        message: "Välkommen, jag heter Nina",
         trigger: "1"
       },
       {
         id: "1",
-        message: "Lets get started",
+        message: "Nu kör vi",
         trigger: "2"
       },
       {
@@ -125,7 +125,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "3",
-        message: "Awesome, whats your name?",
+        message: "Grymt, vad heter du?",
         trigger: "4"
       },
       {
@@ -140,7 +140,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "6",
-        message: "In what city do you want to work?",
+        message: "I vilket län skulle vilja jobba?",
         trigger: "7"
       },
       {
@@ -150,7 +150,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "8",
-        message: "And how old are you?",
+        message: "Och hur gammal är du?",
         trigger: "9"
       },
       {
@@ -160,7 +160,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "10",
-        message: "What type of employment do you want?",
+        message: "Vilken jobb-typ är du ute efter? (Heltid/Deltid)",
         trigger: "11"
       },
       {
@@ -170,7 +170,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "12",
-        message: "And finally, what do you want to work as?",
+        message: "Och sist, vad vill du jobba med? (eg. programmering)",
         trigger: "13"
       },
       {
@@ -180,7 +180,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "14",
-        message: "Awesome, I will find some great jobs for you very soon!",
+        message: "Super, jag letar upp jobb som passar dig!",
         trigger: "15"
       },
       {
@@ -197,12 +197,12 @@ class ConversationScreen extends React.Component {
     const steps2 = [
       {
         id: "0",
-        message: "Welcome to Nina, great that you have BankID!",
+        message: "Välkommen, jag heter Nina - Kul att du har BankID!",
         trigger: "1"
       },
       {
         id: "1",
-        message: "Lets get started",
+        message: "Nu kör vi",
         trigger: "2"
       },
       {
@@ -213,7 +213,7 @@ class ConversationScreen extends React.Component {
 
       {
         id: "3",
-        message: "What type of employment do you want?",
+        message: "Vilken jobb-typ är du ute efter? (Heltid/Deltid)",
         trigger: "4"
       },
       {
@@ -223,7 +223,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "5",
-        message: "And, what do you want to work as?",
+        message: "Och sist, vad vill du jobba med? (eg. programmering)",
         trigger: "6"
       },
       {
@@ -233,7 +233,7 @@ class ConversationScreen extends React.Component {
       },
       {
         id: "7",
-        message: "Awesome, I will find some great jobs for you very soon!",
+        message: "Super, jag letar upp jobb som passar dig!",
         trigger: "8"
       },
       {
@@ -249,33 +249,6 @@ class ConversationScreen extends React.Component {
 
     return (
       <View style={styles.ScreenWrapper}>
-        <TouchableOpacity
-          onPress={({ renderedSteps, steps, values }) => {
-            const data = {
-              name: "Albin",
-              city: "Stockholm",
-              age: 19,
-              employmentType: "Heltid",
-              profession: "restaurang"
-            };
-
-            const setData = async () => {
-              await AsyncStorage.setItem("data", JSON.stringify(data))
-                .then(() => {
-                  // Set data success
-                })
-                .catch(err => {
-                  console.log(err.message);
-                });
-            };
-
-            setData();
-
-            this.props.navigation.navigate("Jobs");
-          }}
-        >
-          <Text>Skip</Text>
-        </TouchableOpacity>
         {this.state.loaded && (
           <ChatBot
             submitButtonStyle={{
