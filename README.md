@@ -2,7 +2,7 @@
 
 ## Hattifnats
 
-## TEAM MEMBERS
+## Team members
 
 - [Vilma Ahlholm](https://github.com/vilmaviola)
 - [Nina Nokelainen](https://github.com/albingroen)
