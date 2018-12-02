@@ -7,6 +7,7 @@ import {
   ScrollView,
   AsyncStorage
 } from "react-native";
+import { codes } from "../utils/enums";
 import Button from "../components/Button";
 import axios from "axios";
 
@@ -39,7 +40,9 @@ class JobsScreen extends React.Component {
           });
 
           const parsedData = JSON.parse(value);
-          const { profession, employmentType } = parsedData;
+          const { profession, employmentType, city } = parsedData;
+
+          const parsedCity = codes[city];
 
           let numberType;
           if (employmentType === "Heltid") {
@@ -50,7 +53,7 @@ class JobsScreen extends React.Component {
 
           axios
             .get(
-              `http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=19&nyckelord=${profession.toLocaleLowerCase()}&anstallningstyp=${numberType}`,
+              `http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?lanid=${parsedCity}&nyckelord=${profession.toLocaleLowerCase()}&anstallningstyp=${numberType}`,
               {
                 headers: {
                   "Accept-Language": "application/json"

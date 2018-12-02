@@ -1,0 +1,23 @@
+export const codes = {
+  Stockholm: 1,
+  Uppsala: 3,
+  Södermanland: 4,
+  Östergötland: 5,
+  Jönköping: 6,
+  Kronoberg: 7,
+  Kalmar: 8,
+  Gotland: 9,
+  Blekinge: 10,
+  Skåne: 12,
+  Halland: 13,
+  "Västra Götaland": 14,
+  Värmland: 17,
+  Örebro: 18,
+  Västmanland: 19,
+  Dalarna: 20,
+  Gävleborg: 21,
+  Västernorrland: 22,
+  Jämtland: 23,
+  Västerbotten: 24,
+  Norrbotten: 25
+};
