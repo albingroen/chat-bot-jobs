@@ -16,13 +16,6 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.trainhack.sparis",
-      "permissions": []
-    }
+    "assetBundlePatterns": ["**/*"]
   }
 }
