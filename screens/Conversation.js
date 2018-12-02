@@ -14,7 +14,7 @@ export const Button = props => {
   return (
     <TouchableOpacity
       onPress={() => handleFindJobs()}
-      style={{ backgroundColor: "dodgerblue", padding: 10, borderRadius: 50 }}
+      style={{ backgroundColor: "#3C7CA6", padding: 10, borderRadius: 50 }}
     >
       <Text style={{ color: "white", fontSize: 16, textAlign: "center" }}>
         Visa jobb!
@@ -102,7 +102,7 @@ class ConversationScreen extends React.Component {
     headerTintColor: "white",
     headerBackTitle: null,
     headerStyle: {
-      backgroundColor: "dodgerblue"
+      backgroundColor: "#3C7CA6"
     }
   };
 
@@ -252,14 +252,14 @@ class ConversationScreen extends React.Component {
         {this.state.loaded && (
           <ChatBot
             submitButtonStyle={{
-              backgroundColor: "dodgerblue",
+              backgroundColor: "#3C7CA6",
               color: "white",
               borderRadius: 3,
               borderRadius: 50
             }}
             inputStyle={{ flex: 1, borderRadius: 50 }}
             userDelay={500}
-            userBubbleColor="dodgerblue"
+            userBubbleColor="#3C7CA6"
             userFontColor="white"
             avatarStyle={{ borderRadius: 50 }}
             botBubbleColor="#222"
