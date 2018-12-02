@@ -113,7 +113,7 @@ class JobsScreen extends React.Component {
             </Text>
           </View>
         )}
-        {jobs && jobs.length > 0 ? (
+        {jobs.length > 0 ? (
           jobs.map(job => {
             return <JobCard key={job.annonsid} job={job} />;
           })
