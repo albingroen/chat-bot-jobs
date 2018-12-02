@@ -155,13 +155,18 @@ export class JobCard extends React.Component {
     };
   }
 
-  loadInfo(id) {
+  loadInfo() {
     axios
-      .get(`http://api.arbetsformedlingen.se/af/v0/platsannonser/${id}`, {
-        headers: {
-          "Accept-Language": "application/json"
+      .get(
+        `http://api.arbetsformedlingen.se/af/v0/platsannonser/${
+          this.props.job.annonsid
+        }`,
+        {
+          headers: {
+            "Accept-Language": "application/json"
+          }
         }
-      })
+      )
       .then(res => {
         this.setState({
           jobInfo: res.data.platsannons.annons,
@@ -198,7 +203,7 @@ export class JobCard extends React.Component {
 
     return size === 0 ? (
       <TouchableOpacity
-        onPress={() => this.loadInfo(job.annonsid)}
+        onPress={this.loadInfo.bind(this)}
         style={{
           margin: 10,
           backgroundColor: "white",
