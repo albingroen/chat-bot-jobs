@@ -1,13 +1,33 @@
-TEAM NAME: Hattifnats
-TEAM MEMBERS:
-CASE: JobTech
-SOLUTION: An app that hels jobseekers find interesting positions through a chat with an AI.
-LICENCE:
-LANGUAGES USED:
-SERVICES USED:
+# Nina - Chatbot for finding a job
 
+## Hattifnats
 
-# Nina - App for finding a job 
+## TEAM MEMBERS
+
+- [Vilma Ahlholm](https://github.com/vilmaviola)
+- [Nina Nokelainen](https://github.com/albingroen)
+- [Albin Groen](https://github.com/NinaNok)
+- [Lucas Wittich](https://github.com/LucceW)
+- Cedric Bratt
+
+## Case
+
+JobTech
+
+## Solution
+
+We built a mobile app that hels jobseekers find interesting positions and explore the labor market in a new and more interesting way. The jobseeker chats with an robot the set his or her preferences for finding a job.
+
+## Langueges and frameworks used
+
+- Javascript 👏
+- React-Native ⚛️
+- Webpack
+
+## Service used
+
+- [Jobtechdev.se](jobtechdev.se)
+- [Platsbanken API](https://jobtechdev.se/swagger/index.html#/)
 
 ## Installation
 
@@ -22,3 +42,5 @@ And then install the dependencies
 Run project by entering
 
     npm start
+
+### License: MIT
