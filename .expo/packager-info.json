@@ -1,9 +1,9 @@
 {
-  "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19005,
-  "packagerPid": 88695,
+  "devToolsPort": 19006,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
   "expoServerNgrokUrl": "https://8x-p3f.albingroen.openhack-project.exp.direct",
   "packagerNgrokUrl": "https://packager.8x-p3f.albingroen.openhack-project.exp.direct",
-  "ngrokPid": 88709
+  "ngrokPid": 92586
 }
