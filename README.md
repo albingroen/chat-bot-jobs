@@ -22,8 +22,8 @@ We built a mobile app that hels jobseekers find interesting positions and explor
 
 ## Langueges and frameworks used
 
-- Javascript 👏
-- React-Native ⚛️
+- Javascript
+- React-Native
 - Webpack
 
 ## Service used
